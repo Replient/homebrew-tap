@@ -1,34 +1,34 @@
 # Homebrew formula template for the Knwlge Enterprise Server.
 #
-# scripts/release/render-formula.mjs substitutes 1.1.3 and the four __SHA256_*__
+# scripts/release/render-formula.mjs substitutes 1.1.4 and the four __SHA256_*__
 # placeholders from a release's checksums.txt; the release workflow commits the result to
 # Formula/knwlge-enterprise.rb on `main` of Replient/homebrew-tap. Do not edit the published
 # formula by hand; change this template and cut a release.
 class KnwlgeEnterprise < Formula
   desc "Source-backed context server for AI coding assistants, run on your own machine"
   homepage "https://knwlge.com"
-  version "1.1.3"
+  version "1.1.4"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.3/knwlge-enterprise-1.1.3-darwin-arm64.tar.gz"
-      sha256 "dee1b68aa912da023262325f925356d3f8974302b14765c3d7d0f9f70279207c"
+      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.4/knwlge-enterprise-1.1.4-darwin-arm64.tar.gz"
+      sha256 "6fc0bd4352c99fdf3ce527005d41dbcc9e047245e2bb4fc8178e352b66bbce85"
     end
     on_intel do
-      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.3/knwlge-enterprise-1.1.3-darwin-x64.tar.gz"
-      sha256 "f8ed7a6a5350d454edb51f925e1b7e425ed3976ddbdfcba0b58c71ebded2b92f"
+      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.4/knwlge-enterprise-1.1.4-darwin-x64.tar.gz"
+      sha256 "a142b45cba9b73e114565c34193819e67af8e0308c0d9f1cf16f5922d33fce83"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.3/knwlge-enterprise-1.1.3-linux-arm64.tar.gz"
-      sha256 "232f827e636f8f1ce85a3009f817aefdc1b1614e3610dc8b7869a477a64cbf86"
+      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.4/knwlge-enterprise-1.1.4-linux-arm64.tar.gz"
+      sha256 "e99f391cb19b33044b82cd482f400c7944d80577cf82624e5aa683053a97a65f"
     end
     on_intel do
-      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.3/knwlge-enterprise-1.1.3-linux-x64.tar.gz"
-      sha256 "525ad1aeb5606dd94b0e3ee333f280f43d0a37508312ec44c3110a8db7ac90a9"
+      url "https://github.com/Replient/knwlge-releases/releases/download/enterprise-v1.1.4/knwlge-enterprise-1.1.4-linux-x64.tar.gz"
+      sha256 "51c20b257aa7ec51c885b28d3a290a55d428e4385cb249dd25836c0bcf294215"
     end
   end
 
