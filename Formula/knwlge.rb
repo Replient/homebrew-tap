@@ -1,15 +1,15 @@
 # Homebrew formula template for the `knwlge` developer CLI.
 #
 # The release workflow (.github/workflows/release.yml) substitutes
-# 1.0.1 and a75a388502ff3130fccd128c7b1a0d4bf2df3919b1b6df4d21c15aa6e9229954 and commits the result to
+# 1.0.3 and 421102b86bb0efa1db6ca3461f82d9583e550f6af5af17443e49993d89e650a9 and commits the result to
 # Formula/knwlge.rb on `main` of Replient/homebrew-tap. Do not edit the
 # published formula by hand; change this template and cut a release.
 class Knwlge < Formula
   desc "Knwlge developer CLI: sign in to a Knwlge Enterprise Server and wire AI coding assistants to it"
   homepage "https://github.com/Replient/knwlge-cli"
-  url "https://github.com/Replient/knwlge-releases/releases/download/cli-v1.0.1/knwlge-1.0.1.tgz"
-  sha256 "a75a388502ff3130fccd128c7b1a0d4bf2df3919b1b6df4d21c15aa6e9229954"
-  version "1.0.1"
+  url "https://github.com/Replient/knwlge-releases/releases/download/cli-v1.0.3/knwlge-1.0.3.tgz"
+  sha256 "421102b86bb0efa1db6ca3461f82d9583e550f6af5af17443e49993d89e650a9"
+  version "1.0.3"
   license :cannot_represent
 
   depends_on "node@22"
